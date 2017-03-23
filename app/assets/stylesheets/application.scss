@@ -13,3 +13,24 @@
  *= require_tree .
  *= require_self
  */
+#main_navigation  {
+  padding: 2.5em 5%;
+.name {
+  font-weight: 700;
+  font-size: .7em;
+  text-transform: uppercase;
+  border: 2px solid #E9E9E9;
+  padding: 0.75 1rem;
+  text-decoration: none;
+  float: left;
+}
+nav {
+  float: right;
+    a {
+      color: #42652;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-size:1rem;
+    }
+  }
+}
