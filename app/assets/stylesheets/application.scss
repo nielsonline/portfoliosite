@@ -1,19 +1,28 @@
 @import 'normalize';
 
+//Colours
 $dark: #424652;
 $light: #9a9da4;
 $highlight: #8bc6db;
 $border: #E9E9E9;
 
+// Google Fonts
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+// Font Variables
+$Dosis: 'Dosis', sans-serif;
+
+//Navigatie
 #main_navigation  {
   padding: 2.5em 5%;
+  border-bottom: 1px solid $border;
 .logo {
-  font-weight: 700;
-  font-size: .7em;
+  font-weight: 900;
+  font-size: 1rem;
   text-transform: uppercase;
   border: 2px solid $border;
   padding: 1 2rem;
   text-decoration: none;
+  font-family: 'Dosis', sans-serif;
   color: $dark;
   float: left;
 }
@@ -24,6 +33,7 @@ nav {
       text-decoration: none;
       margin: 0 1rem;
       font-size: 1rem;
+      font-family: 'Dosis', sans-serif;
     }
   }
 }
